@@ -7,13 +7,13 @@ public class CalculatorTest {
     public void testTwoIntegers(){
         Calculator calculator = new Calculator();
         assertEquals(15,calculator.add(1,2,3,4,5));
-        assertEquals(5, calculator.add(1,2));
-        assertEquals(-4,calculator.add(-1,-1));
+        assertEquals(3, calculator.add(1,2));
+        assertEquals(-2,calculator.add(-1,-1));
     }
     @Test
     public void testMultiplyTwoIntegers(){
         Calculator calculator = new Calculator();
-        assertEquals(4,calculator.multiply(1,3));
+        assertEquals(3,calculator.multiply(1,3));
         assertEquals(-3,calculator.multiply(-1,3));
         assertEquals(120,calculator.multiply(1, 2, 3, 4, 5));
     }
