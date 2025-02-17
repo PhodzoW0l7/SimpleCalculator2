@@ -2,6 +2,8 @@
 
 A Java-based calculator for basic arithmetic operations (addition, subtraction, multiplication, division) built with **Spring Boot** and tested with **JUnit**.
 
+![asssert2](https://github.com/user-attachments/assets/e8c3f68b-549c-49b8-be1f-e7b43f411232)
+
 ## Features
 
 - **Addition**: Add multiple numbers.
